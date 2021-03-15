@@ -1,0 +1,190 @@
+#title{
+  background-color: #ff4c68;
+  color: #fff ;
+
+}
+body{
+  font-family: 'Montserrat', sans-serif;
+}
+h1{
+font-family: 'Merriweather', serif;
+
+  font-size: 3.5rem !important;
+  line-height: 1.5 !important;
+
+}
+h2{
+font-family: 'Montserrat', sans-serif !important;
+font-weight: Bold !important;
+font-size: 3rem !important;
+line-height: 1.5 !important ;
+
+}
+.container-fluid{
+
+}
+/* navigation-bar */
+
+.navbar{
+  padding: 0 0 4.5rem 0 !important;
+
+}
+.nav-item{
+  padding: 0 20px ;
+}
+.nav-link{
+  font-size: 1.3rem ;
+  font-weight: normal;
+}
+.navbar-brand{
+  font-family: 'Ubuntu', sans-serif;
+font-size: 2.5rem !important;
+  font-weight: bold ;
+}
+
+.download-button{
+  margin: 5% 3% 5% 0 ;
+  width: 10rem ;
+}
+.title-image{
+  width: 70% ;
+  transform: rotate(25deg);
+  padding-left: 15% ;
+  padding-top: 1% ;
+ position: absolute;
+}
+
+/* feature */
+.check-circle{
+  font-size:95px ;
+  color: #ef8172 ;
+  margin-bottom: 5px ;
+}
+.bullseye{
+  font-size: 95px ;
+  color: #ef8172 ;
+  margin-bottom: 5px ;
+}
+.heart{
+  font-size: 95px ;
+  color: #ef8172 ;
+  margin-bottom: 5px ;
+}
+.check-circle:hover{
+
+  color: #ff4c68 ;
+}
+.bullseye:hover{
+
+  color: #ff4c68 ;
+}
+.heart:hover{
+
+  color: #ff4c68;
+}
+
+#features{
+  text-align: center;
+  padding: 7% 13% 1%;
+  background-color: #fff ;
+  position: relative;
+  z-index: 1 ;
+}
+.feature-tag{
+  font-size: 1.5rem ;
+  font-family: 'Merriweather', serif;
+  padding-top: 10px ;
+}
+.feature-text{
+  color: #8f8f8f ;
+  padding: 0 13% ;
+}
+
+.feature-box{
+margin-bottom: 10% ;
+}
+
+/* testimonial */
+#testimonials{
+
+  text-align: center;
+  background-color: #ef8172 ;
+  color:  #fff ;
+  height: 36rem;
+}
+.testimonials-image{
+  width: 10% ;
+  border-radius: 50% ;
+  margin: 20px ;
+
+}
+.carousel-item{
+    padding: 7% 13% ;
+}
+.carousel-item-first{
+  margin-bottom: 7.5rem ;
+}
+.carousel-item-second{
+  margin-bottom: 7.5rem ;
+
+}
+
+#press{
+  background-color: #ef8172 ;
+  text-align: center;
+  padding-bottom: 3% ;
+}
+
+.press-image{
+  width: 15% ;
+  margin: 20px 20px 50px ;
+}
+#pricing{
+  padding: 100px ;
+  text-align: center;
+}
+.pricing-column{
+  padding: 3%  ;
+  padding-right: 2% !important;
+  text-align: center;
+
+}
+.card{
+  border-radius:4% !important;
+}
+.card:hover {
+  box-shadow: 0 0 25px rgba(33,33,33,.7);
+}
+#cta{
+  background-color: #ff4c68 ;
+  color: #fff ;
+  padding: 5% 13%  ;
+  padding-bottom: 1% ;
+ text-align: center;
+}
+.cta-heading{
+  font-family: 'Merriweather', serif;
+  font-weight: bold;
+  font-size: 3.5rem ;
+
+  line-height: 1.5 ;
+}
+#footer{
+  padding: 1.5% 13% ;
+  text-align: center;
+}
+.footer-icon{
+  margin:10px 10px   ;
+  font-size: 25px ;
+}
+
+@media (max-width:992px) {
+ #title{
+   text-align: center;
+ }
+ .title-image{
+   transform: rotate(0deg);
+  position: static;
+  margin-right: 16% ;
+ }
+}
